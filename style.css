@@ -1,8 +1,13 @@
 * {
   /* border: 1px solid red; */
 }
+body {
+  background-color: rgb(240, 240, 240);
+}
 header.header {
+  position: relative;
   background: rgb(13, 101, 164);
+  min-height: 230px;
 }
 
 .header .wrapper {
@@ -13,13 +18,14 @@ header.header {
 
 nav.navi {
   background: rgb(23, 145, 208);
-  display: block;
   width: 100%;
 }
 
 nav.navi a {
   color: #fff;
   text-decoration: none;
+  display: inline-block;
+  padding: 16px;
 }
 
 nav.navi a.selected {
@@ -30,42 +36,83 @@ nav.navi a.selected {
 .header .logo {
   display: block;
   right: 0;
+  padding: 48px 0;
 }
 
 .header .wave {
   position: absolute;
-  right: 0;
+  right: -48px;
+  top: 16px;
 }
 
-ul.list {
+.contents {
+  overflow: hidden;
   max-width: 1024px;
-  margin: 16px auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.contents aside.sidebar {
+  float: right;
+  margin: 16px;
+}
+
+.contents aside.sidebar h5 {
+  color: rgb(23, 145, 208);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+}
+.contents aside.sidebar ul {
+  margin: 4px 0;
+  padding: 0;
+  list-style: none;
+}
+.contents aside.sidebar ul li {
+  border-left: 3px solid rgb(221, 221, 221);
+  padding: 2px 8px;
+  color: rgb(165, 165, 165);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contents ul.list {
+  max-width: 1024px;
+  margin: 0;
   padding: 0;
   list-style-type: none;
+  padding-right: 180px;
 }
 
-ul.list li {
+.contents ul.list li {
   display: block;
-  margin-bottom: 16px;
+  margin: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px dashed grey;
 }
 
-ul.list li:last-child {
+.contents ul.list li:last-child {
   border-bottom: 0;
 }
 
-ul.list li:after {
+.contents ul.list li:after {
   content: " ";
   display: block;
   clear: both;
 }
 
-ul.list li img {
+.contents ul.list li img {
   float: left;
   margin-right: 16px;
-  margin-bottom: 16px;
 }
 
-ul.list li .description {
+.contents ul.list li .description {
   overflow: hidden;
+}
+.contents ul.list li .description h2 {
+  margin: 0;
+  color: rgb(23, 145, 208);
+}
+.contents ul.list li .description p {
+  color: rgb(153, 153, 153);
 }
