@@ -1,0 +1,25 @@
+{
+    "name": "veamcamp-master",
+    "version": "1.0.0",
+    "description": "빔캠프 숙제",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "echo \"Nothing to do\"",
+        "deploy": "now"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://yunseop-dev@github.com/yunseop-dev/veamcamp.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yunseop-dev/veamcamp/issues"
+    },
+    "homepage": "https://github.com/yunseop-dev/veamcamp#readme",
+    "devDependencies": {
+        "now": "^18.0.0"
+    }
+}
