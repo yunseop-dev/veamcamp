@@ -154,3 +154,37 @@ nav.navi a.selected {
   color: rgb(89, 89, 89);
   font-size: 13px;
 }
+
+.twitter,
+.facebook,
+.pinterest {
+  background: url("./images/icon-sprite.png") no-repeat;
+  display: inline-block;
+  margin: 0 2px;
+}
+.twitter {
+  width: 30px;
+  height: 30px;
+  background-position: 0 0;
+}
+.twitter:hover {
+  background-position: 0 -30px;
+}
+
+.facebook {
+  width: 30px;
+  height: 31px;
+  background-position: -30px 1px;
+}
+.facebook:hover {
+  background-position: -30px -29px;
+}
+
+.pinterest {
+  width: 30px;
+  height: 30px;
+  background-position: -60px 0;
+}
+.pinterest:hover {
+  background-position: -60px -30px;
+}
