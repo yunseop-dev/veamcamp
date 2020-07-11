@@ -4,16 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
-	<title>Wave Record</title>
+	<title>Main | Wave Record</title>
 </head>
 
 <body>
+    
 	<header class="header">
-		<div class="wrapper">
-			<img class="logo" src="./images/header-logo.png" alt="logo">
-			<img class="wave" src="./images/wave.png" alt="wave">
-			<nav class="navi">
-				<a class="selected" href="#">Home</a>
+		<div class="l_wrapper">
+		    <a href="" class="header-logo"><img src="./images/header-logo.png" alt="logo"></a>
+			<img class="header-cover" src="./images/wave.png" alt="wave">
+			<nav class="header-nav">
+				<a class="is_active" href="#">Home</a>
 				<a href="#">About</a>
 				<a href="#">Portfolio</a>
 				<a href="#">Video</a>
@@ -21,80 +22,89 @@
 			</nav>
 		</div>
 	</header>
+    
 	<section class="contents">
-		<aside class="sidebar">
-			<h5>Creative Fields</h5>
-			<ul>
-				<li>Graphic Design</li>
-				<li>Web Develop</li>
-				<li>Motion Graphic</li>
-			</ul>
-		</aside>
-		<ul class="list">
-			<li>
-				<img src="./images/section01.png" alt="jaws">
-				<div class="description">
-					<h2>Jaws</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. text ever since the
-						1500s,
-						when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-					</p>
-				</div>
-			</li>
-			<li>
-				<img src="./images/section02.png" alt="giant wave">
-				<div class="description">
-					<h2>Giant Wave</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of thedummy text of thedummy text of the printing and
-						typesetting
-						industry. Lorem Ipsum has been the industry's standard. when an unknown printer took a galley
-					</p>
-				</div>
-			</li>
-			<li>
-				<img src="./images/section03.png" alt="Mavericks">
-				<div class="description">
-					<h2>Mavericks</h2>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the
-						industry's standard dummy text ever since the 1500s, when an scrambled it to make a type
-						specimen book.
-					</p>
-				</div>
-			</li>
-		</ul>
+        <div class="l_wrapper">
+            <div class="contents-inside">
+                <aside class="l_sidebar">
+                    <div class="fields">
+                        <h5>Creative Fields</h5>
+                        <ul>
+                            <li>Graphic Design</li>
+                            <li>Web Develop</li>
+                            <li>Motion Graphic</li>
+                        </ul>
+                    </div>
+                </aside>
+                <section class="l_main">
+                    <ul class="list">
+                        <li class="list-item clearfix">
+                            <img class="list-item-cover" src="./images/section01.png" alt="jaws">
+                            <div class="list-item-description">
+                                <h2>Jaws</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. text ever since the
+                                    1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-item clearfix">
+                            <img class="list-item-cover" src="./images/section01.png" alt="jaws">
+                            <div class="list-item-description">
+                                <h2>Jaws</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. text ever since the
+                                    1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list-item clearfix">
+                            <img class="list-item-cover" src="./images/section01.png" alt="jaws">
+                            <div class="list-item-description">
+                                <h2>Jaws</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. text ever since the
+                                    1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
 	</section>
 	<footer class="footer">
-		<div class="wrapper">
-			<img class="logo" src="./images/footer-logo.png" alt="footer logo">
-			<div class="lists">
-				<div class="links">
+		<div class="l_wrapper">
+			<img class="footer-logo" src="./images/footer-logo.png" alt="footer logo">
+			<ul class="footer-nav">
+				<li class="footer-item">
 					<h5>About us</h5>
 					<ul>
 						<li>Information</li>
 						<li>Team</li>
 						<li>About</li>
 					</ul>
-				</div>
-				<div class="links">
+				</li>
+				<li class="footer-item">
 					<h5>Creative Fields</h5>
 					<ul>
 						<li>Graphic Design</li>
 						<li>Web Develop</li>
 						<li>Motion Graphic</li>
 					</ul>
-				</div>
-				<div class="links">
+				</li>
+				<li class="footer-item">
 					<h5>Social Network</h5>
-					<!-- <img src="./images/icon-sprite.png" alt="social"> -->
-					<div class="twitter"></div>
-					<div class="facebook"></div>
-					<div class="pinterest"></div>
-				</div>
-			</div>
+					<nav class="social">
+                        <a class="social-item social-item_pinterest">Pinterest</a>
+                        <a class="social-item social-item_twitter">Twitter</a>
+                        <a class="social-item social-item_facebook">Facebook</a>
+					</nav>
+				</li>
+			</ul>
 		</div>
 	</footer>
 </body>
